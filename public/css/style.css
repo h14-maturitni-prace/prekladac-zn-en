@@ -1,0 +1,15 @@
+/* Adjusting styles for the text areas */
+#chineseText, #englishText {
+    padding: 10px; /* Adjust padding for better text visibility */
+    font-size: 16px; /* Set a comfortable font size for reading and writing */
+    margin-bottom: 20px; /* Ensure there's enough space below the text areas */
+    border: 1px solid #ced4da; /* Match Bootstrap's input styling */
+    border-radius: 0.25rem; /* Match Bootstrap's border radius for inputs */
+    resize: none; /* Disallow resizing to maintain the design */
+}
+
+/* Additional styles to improve the overall appearance and usability */
+textarea:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
